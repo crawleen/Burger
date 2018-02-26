@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
+	<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" />
+	<title>Eat-da-burger</title>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="/assets/js/burgers.js"></script>
+</head>			
+		<body>
+			<div class="container-fluid"></div>
+				<center>
+					<divclass="col-md-12">
+						<img id='burger_img' src="/assets/img/burger.png" width="400px" id="burger">
+						<h1 class="redFont">Eat-Da-Burger!</h1>
+					</div>
+				</center>
+				
+				{{{ body }}}
+				
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-6">
+					<form class="create-form">
+
+						<center><label for="new_burger" id="lblAddABurger" class="redFont">Add a Burger</label></center>
+						<textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>							
+						
+						<center>
+						<button id="submit-button" type="submit" class="btn btn-danger">Make It Up For Me!</button>
+						<div>Enter a burger you want to eat and Click the "Make It Up For Me!" button.</div>
+						</center>
+					</form>
+					</div>
+					<div class="col-md-3"></div>
+				</div>		
+			</div>
+		</body>
+</html>

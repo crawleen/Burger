@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-1"></div>
+    <div id="ready-to-eat" class="col-md-4">
+      <center><h4>Ready to Eat!</h4></center>
+        <div>
+          {{#each burgers}}
+            {{#unless devoured}}
+              <div class="readyBurger">
+                {{this.burger_name}}
+                {{> burger/burger-block devoured=true}}
+              </div>       
+            {{/unless}}
+          {{/each}}
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-4" id="already_eaten">
+      <center><h4>Already Eaten!</h4></center>
+      <div>
+        {{#each burgers}}
+          {{#if devoured}}
+            <div class="eatenBurger">
+              {{this.burger_name}}
+              {{> burger/burger-block devoured=false}}
+            </div>
+          {{/if}}
+        {{/each}}
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,48 @@
+body {
+	 background-color: #FFC04C;
+	 width:100%;
+ }
+
+ h4{	 
+	 color:red;
+ }
+
+ #burger_img{
+	 width:300px;
+ }
+
+ #ready-to-eat {
+	 background-color: #f7d38f;
+ }
+ 
+ #already_eaten{
+	background-color: #f7d38f;
+}
+
+ .redFont{
+	 color: red;
+ }
+ .change-devoured{
+	 float:right;
+	 background-color: red;
+	 color:white;
+ }
+	 
+ .readyBurger{
+	background-color: white;
+	padding: 10px;
+	margin:10px;
+ }
+ .eatenBurger{
+	background-color: white;
+	padding: 10px;
+	margin:10px;
+ }
+ #submit-button{
+	 margin:10px;
+ }
+ #lblAddABurger{
+	font-size: 20px;
+	font-weight: bold;
+ }
+ 
