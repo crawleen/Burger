@@ -3,7 +3,7 @@
 
 ### Overview
 A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat... and then devour them!
-Please check out the launched app on Heroku [here](http://eat-da-burger.herokuapp.com/)!
+Please check out the launched app on Heroku [here](https://eatdaburgerz2018.herokuapp.com/)!
 
 
 ### Functionality
